@@ -8,7 +8,8 @@ const TaskSchema = new mongoose.Schema(
         },
         isDone:{
             type:Boolean,
-            require:true
+            require:true,
+            default:false
         }
 
     })
