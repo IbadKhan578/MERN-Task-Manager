@@ -204,7 +204,7 @@ const TaskManager = () => {
           ); 
         })  ): (
           <>
-          <p>No task found as keyword <b>{searchTerm} </b>    </p>
+          <p>No task found  <b>{searchTerm} </b>    </p>
           </>
 
         )  }
